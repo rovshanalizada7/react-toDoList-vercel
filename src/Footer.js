@@ -3,7 +3,7 @@ const Footer = ({length}) => {
 
  return (
     <footer>
-     <p>{length} List {length === 1 || length === 0 ? "item" : "items" } </p>
+     <p>{length} List {length === 1 || length === 0 ? "event" : "events" } </p>
     </footer>
     )
 }

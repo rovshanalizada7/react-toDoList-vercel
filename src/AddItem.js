@@ -14,7 +14,7 @@ const AddItem = ({ newItem,setNewItem,handleSubmit}) => {
       ref={inputRef}
       id='addItem'
       type='text'
-      placeholder='Add Item'
+      placeholder='Add todos...'
       required
       value={newItem}
       onChange={(e)=>setNewItem(e.target.value)}
